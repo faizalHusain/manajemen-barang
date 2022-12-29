@@ -33,6 +33,6 @@ jobs:
           key: ${{ secrets.DEPLOY_KEY }}
           port: 22
           script: |
-            cd /home/${{ secrets.SSH_USER }}/laravel-api.zzidzz.tech
+            cd /home/${{ secrets.SSH_USER }}/manajemen-barang.next-innovate.tech
             composer install
             php artisan migrate
